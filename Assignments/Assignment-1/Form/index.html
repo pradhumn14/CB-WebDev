@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BioData Form CB</title>
+</head>
+<body>
+    
+
+    <h1>Google Form Coding Blocks</h1>
+
+    <h2><em>My Bio Data</em></h2>
+    <br>
+    
+    <form action="#">
+            
+
+        <fieldset>
+
+            <legend>Personal Information</legend>
+
+            <label for="firstname">First Name: </label>
+            <input type="text" id="firstname">
+            <label for="lastname">Last Name: </label>
+            <input type="text" id="lastname">
+
+            <br>
+            <br>
+
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="male">
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="female">
+            <label for="others">Others</label>
+            <input type="radio" name="gender" id="others">
+
+            <br>
+            <br>
+
+            <label for="date">Date Of Birth</label>
+            <input type="date" id="date">
+
+            <br>
+            <br>
+
+            <label for="mail">E-mail: </label>
+            <input type="email" id="mail">
+
+            <br>
+            <br>
+
+            <label for="num">Phone Number: </label>
+            <input type="tel" id="num" maxlength="10" placeholder="+91">
+
+            <br>
+            <br>
+
+            <label for="hieght">Height</label>
+            <input type="text" id="height" placeholder="Height in Feet">
+
+        </fieldset>
+
+
+        <br>
+        <br>
+
+        <fieldset>
+
+            <legend>Education</legend>
+
+            <h3>Select whether in college or school - </h3>
+
+        <label for="schoolcollege">School</label>
+        <input type="radio">
+        <label for="schoolcollege">College</label>
+        <input type="radio">
+
+        <br>
+        <br>
+
+            <label for="school">School: </label>
+            <input type="text" id="school" placeholder="School Name">
+            <h3>OR</h3>
+            <label for="cllg">College: </label>
+            <input type="text" id="cllg" placeholder="College Name">
+        <br>
+        <br>
+
+        <label for="class">Class: </label>
+        <input type="text" id="class" >
+
+        <h3>OR</h3>
+
+            <label for="First">First year: </label>
+            <input type="radio" id="First" name="Year">
+            <label for="Second">Second year: </label>
+            <input type="radio" id="Second" name="Year">
+            <label for="Third">Third year: </label>
+            <input type="radio" id="Third" name="Year">
+            <label for="Fourth">Fourth year: </label>
+            <input type="radio" id="Fourth" name="Year">
+            <label for="Passout">Passout: </label>
+            <input type="radio" id="Passout" name="Year">
+        <br>
+        <br>
+
+        <label for="stream">Stream</label>
+        <select name="stream" id="stream">
+            <option value="default"></option>
+            <option value="pcm">PCM</option>
+            <option value="pcb">PCB</option>
+            <option value="commerce">Commerce</option>
+            <option value="arts">Arts</option>
+        </select>
+
+        <br>
+        <br>
+
+        <label for="marksheet">Marksheet</label>
+        <input type="file" name="marksheet" id="marksheet">
+
+        </fieldset>
+
+        <br>
+        <br>
+
+        <fieldset>
+
+            <legend>Links for website</legend>
+
+            <label for="deploy">Deplayment Link: </label>
+            <input type="text" id="deploy">
+        <br>
+        <br>
+
+            <label for="git">Github link: </label>
+            <input type="text" id="git">
+
+        <br>
+        <br>
+
+            <label for="srcfil">Source code: </label>
+            <input type="file" id="srcfil">
+
+        </fieldset>
+
+        <br>
+
+        <button>Submit</button>
+
+    </form>
+
+
+</body>
+</html>
