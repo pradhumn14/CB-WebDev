@@ -1,0 +1,30 @@
+
+/* 
+
+Are of 3 types - 
+
+1. starts with ^=
+2. ends with $=
+3. present anywhere *=
+
+*/
+
+
+
+/* Starts with */
+
+a[href^="http"]{
+    color: red;
+}
+
+/* Ends with */
+
+a[href$="in"]{
+    color: green;
+}
+
+/* Present Anywhere */
+
+ a[href*="coding"]{
+    color: palevioletred;
+ }

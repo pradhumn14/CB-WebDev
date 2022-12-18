@@ -1,0 +1,29 @@
+/* Descendent Combinators */
+
+div p strong{
+    color: red;
+}
+
+p strong{
+    color: purple;
+}
+
+li a[href="http://google.com"]{
+    color: green;
+}
+
+ol > li{
+    border-top: 3px solid palevioletred;
+}
+
+/* Adjacent Sibling Combinator */
+
+h4+p{
+    background-color: lightgreen;
+}
+
+/* General Sibling Combinator */
+
+section div ~ p{
+    text-decoration: line-through;
+}
