@@ -1,0 +1,72 @@
+
+p{
+
+
+    /* dimension - height and width */
+
+
+
+
+    width: 500px;
+
+
+
+
+    /* Border */
+
+
+
+
+    border: 2px solid green;
+
+
+
+
+
+    /* Margin */
+
+
+
+
+    /* margin: 40px; */
+
+    /* margin-top: 40px;
+    margin-right: 50px;
+    margin-bottom: 60px;
+    margin-left: 70px; */
+
+
+    /* we can simply like this also */
+    /* it works in clockwise direction */
+
+    margin: 40px 50px 60px 70px; /* this will be assigned to all sides */
+
+    margin: 40px 50px; /* first value will go for top-bottom and second for left right*/
+
+    margin: 40px auto; /*  center aligned 40 for top-bottom */
+
+
+
+
+
+    /* Padding */
+
+
+
+
+
+    /* padding: 50px; */
+
+
+    /* padding-top: 20px;
+    padding-right: 30px;
+    padding-bottom: 40px;
+    padding-left: 50px; */
+
+
+    padding: 20px 30px 40px 50px;
+
+    padding: 30px 40px;
+
+
+}
