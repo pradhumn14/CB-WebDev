@@ -10,3 +10,10 @@ h1 {
     font-size: 4rem;
     text-align: center;
 }
+
+@media screen and (width:790px) {
+    h1 {
+        color: red;
+        font-size: 3rem;
+    }
+}
